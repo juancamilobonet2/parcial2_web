@@ -1,0 +1,13 @@
+{
+    "Nombre": "Nombre",
+    "Tipo": "Tipo",
+    "Region": "Region",
+    "Altura": "Cultivado a una altura de ",
+    "msnm": " metros sobre el nivel del mar.",
+    "notas": "Notas de:",
+    "usuario": "Usuario",
+    "contraseña": "contraseña",
+    "ingresar" : "Ingresar",
+    "login error":"Error de autenticacion. Revise sus credenciales.",
+    "contacto": "Contactanos"
+}

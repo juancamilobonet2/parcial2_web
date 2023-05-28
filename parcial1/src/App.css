@@ -37,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+.cafe-banner {
+  object-fit: cover;
+  border-top: #282c34;
+}
+
+.info{
+  padding-top: 3%;
+}

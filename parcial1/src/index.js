@@ -4,12 +4,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import {IntlProvider} from 'react-intl';
+
+import localeEnMessages from './locales/en.json';
+import localeEsMessages from './locales/es.json';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const locale = navigator.language;
+let messages = localeEnMessages;
+
+if (locale === 'en-US') {
+  messages = localeEnMessages;
+} else {
+  messages = localeEsMessages;
+}
+
+
 root.render(
   <React.StrictMode>
-    <App />
+    <IntlProvider locale={locale} messages={messages}>
+      <App />
+    </IntlProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,13 @@
+{
+    "Nombre": "Name",
+    "Tipo": "Type",
+    "Region": "Region",
+    "Altura": "Cultivated at an altitude of ",
+    "msnm": " meters above sea level.",
+    "notas": "Notes of:",
+    "usuario": "User",
+    "contraseña": "Password",
+    "ingresar" : "Submit",
+    "login error":"Authentication error, please try again",
+    "contacto": "Contact us"
+}

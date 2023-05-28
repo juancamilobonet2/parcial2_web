@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import logo from "../logo.png";
 import './styles/navbar.css';
 
 function Navbar(props) {
 
     return (
         <div className="navbar">
-            <nav class="navbar bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">El aroma magico</a>
+            <nav className="navbar bg-body-tertiary">
+              <div className="container-fluid">
+                <img src={logo} alt="logo" className='logo'></img>
               </div>
             </nav>
         </div>
